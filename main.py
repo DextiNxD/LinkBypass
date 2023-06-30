@@ -13,9 +13,9 @@ import re
 
 
 # bot
-bot_token = os.environ.get("TOKEN", "")
-api_hash = os.environ.get("HASH", "") 
-api_id = os.environ.get("ID", "")
+bot_token = os.environ.get("TOKEN", "6135489118:AAGZl2sXtnErAbVJuIUi7c3rZK4Q1lbqPxw")
+api_hash = os.environ.get("HASH", "8f0efb1a78388537970e6d5fd5a11e70") 
+api_id = os.environ.get("ID", "18164063")
 app = Client("my_bot",api_id=api_id, api_hash=api_hash,bot_token=bot_token)  
 
 
@@ -83,8 +83,8 @@ def loopthread(message,otherss=False):
 def send_start(client: pyrogram.client.Client, message: pyrogram.types.messages_and_media.message.Message):
     app.send_message(message.chat.id, f"__👋 Hi **{message.from_user.mention}**, i am Link Bypasser Bot, just send me any supported links and i will you get you results.\nCheckout /help to Read More__",
     reply_markup=InlineKeyboardMarkup([
-        [ InlineKeyboardButton("🌐 Source Code", url="https://github.com/bipinkrish/Link-Bypasser-Bot")],
-        [ InlineKeyboardButton("Replit", url="https://replit.com/@bipinkrish/Link-Bypasser#app.py") ]]), 
+        [ InlineKeyboardButton("🌐 Owner", url="https://t.me/Mr_SPIDY")],
+        [ InlineKeyboardButton("2nd Owner", url="https://t.me/Duce_xD") ]]), 
         reply_to_message_id=message.id)
 
 
