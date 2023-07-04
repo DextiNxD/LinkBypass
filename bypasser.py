@@ -1433,8 +1433,8 @@ def unified(url):
         else: return ddl.sharer_scraper(url)
 
     try:
-        Email = "chzeesha4@gmail.com"
-        Password = "zeeshi#789"
+        Email = "dextinxd5@gmail.com"
+        Password = "Zaxscd@123"
 
         account = {"email": Email, "passwd": Password}
         client = cloudscraper.create_scraper(allow_brotli=False)
